@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taseer Ahmad</title>
+    <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+
+    <div class="parallax">        
+         <div class="container">
+            <div class="row"> <!-- Intro -->
+                <div class="col-md-8">
+                    <div class="col mt-md-5 mt-sm-3 mt-2">
+                        <h1>Hi,</h1>
+                        <h1>I'm <span id="dev-name"></span></h1>
+                    </div>
+                    <div class="col lead mt-4">
+                        I'm a Pakistan based <span id="dev-role" class="highlight text-bg-light p-1">full-stack engineer</span>. I develop websites and web applications of all types.
+                        With almost two years of experience as a <i>software engineer</i> at a <b>global</b> fintech company,
+                        I have learnt the fashion in which businesses thrive and work and I am able to optimize business needs.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-5"> <!-- Intro -->
+            <div class="col-md-8">
+                <div class="col">
+                    <h1>What do I do?</h1>
+                    <small>Glad you asked!</small>
+                </div>
+                <div class="col mt-4">
+                    I'm like a wizard, but instead of a wand, I use my keyboard to make magic happen on the web. Being a full-stack engineer
+                    I have to manage front-end, back-end, database and the quirky little gotchas of programming world. Taking a holistic approach to web development,
+                    I understand that every part of the application is important, from the front-end design to the database architecture, 
+                    and I strive to create a cohesive and seamless experience for users.
+                </div>
+            </div>
+            <div class="col-md-4 d-flex align-content-center">
+                <img src="assets/programmer.svg" class="img-fluid mt-md-0 mt-5">
+            </div>
+        </div>
+
+        <div class="row m-md-5 m-2"></div> <!-- Empty -->
+
+        <div class="row mt-5 flex-md-row flex-column-reverse"> <!-- Work experience -->
+            <div class="col-md-4">
+                <img src="assets/work-experience-logo.svg" class="img-fluid mt-md-0 mt-3">
+            </div>
+            <div class="col-md-8 ps-md-5">
+                <h1>Work Experience & Education</h1>
+                <small>What I have done so far...</small>
+                <br>
+                <br>
+                <div class="accordion accordion-flush" id="work-accordian">
+                    <div class="accordian-item">
+                        <h2 class="accordian-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <div class="row flex-column">
+                                    <div class="col-auto"><b>DirectFN, <small>Full-Stack Engineer</small></b></div>
+                                    <div class="col-auto"><small>Lahore, Pakistan</small></div>
+                                    <div class="col-auto"><small><i>Feb 2022 - May 2023</i></small></div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordian-collapse collapse show" data-bs-parent="#work-accordian">
+                            <div class="accordion-body">
+                                <p>
+                                    Joined <a href="https://www.directfn.com/en/">DirectFN</a> as a software engineering intern on Febraury 2022. In May of 2022, I was promoted to full-time position as a software engineer.
+                                    Some of my notable yet non-exhaustive list of accomplishments I achieved while working:
+                                </p>
+                                <ul>
+                                    <li>Used <b>ASP.NET MVC</b> and <b>AngularJS</b> to maintain and improve Custody Management System for the largest bank of Ghana.</li>
+                                    <li>Introduced stability to the project by fixing numerous bugs both in UI and business layer.</li>
+                                    <li>Worked as an 'on-call' engineer to deliver support at critical times.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordian-item">
+                        <h2 class="accordian-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <div id="test" class="row flex-column">
+                                    <div class="col-auto"><b>Self-Venture, <small>Android Developer</small></b></div>
+                                    <div class="col-auto"><small><i>May 2018 - April 2020</i></small></div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordian-collapse collapse" data-bs-parent="#work-accordian">
+                            <div class="accordian-body">
+                                <div class="row flex-column">
+                                    <p>
+                                        During my 3rd semester's holidays, I took the opportunity to learn Android development using an <a href="https://www.udemy.com/certificate/UC-VLGT4QJA/">Udemy course</a>.
+                                        This was my first step into the world of software development. On completing the course, I took the liberty to build complex apps on my own.
+                                    </p>
+                                    <img src="assets/android-cert-udemy.jpg" class="img-fluid w-75 m-auto">
+                                    <ul>
+                                        <li>Used latest libraries and best practices at the time to build various application</li>
+                                        <li>Deployed and managed applications on the Google Play Store (de-listed now).</li>
+                                        <li>Integrated multiple third-party SDKs, including MapBox, REST-based services and Ads, to enhance functionality and user experience.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="accordion accordion-flush" id="education-accordian"> <!-- Education -->
+                    <div class="accordian-item">
+                        <h2 class="accordian-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThird" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <div class="row flex-column">
+                                    <div class="col-auto"><b>Bachelor of Computer Science</b></div>
+                                    <div class="col-auto"><small>UMT, Lahore, Pakistan</small></div>
+                                    <div class="col-auto"><small><i>2017 - 2022</i></small></div>
+                                </div>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThird" class="accordian-collapse collapse" data-bs-parent="#education-accordian">
+                            <div class="accordion-body">
+                                <p>Throughout the period, I have focussed more on learning software development.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row m-md-5 m-2"> <!-- Empty -->
+        </div>
+
+        <div class="row"> <!-- Skills -->
+            <div class="col-md-8">
+                <div class="row flex-sm-column">
+                    <div class="col-auto mb-md-4 mb-sm-2 mb-1">
+                        <h1>Technical Skill</h1>
+                        <small>My magical powers...</small>
+                    </div>
+                    <div class="col-sm-auto">
+                        <div class="row flex-wrap justify-content-sm-start justify-content-evenly mt-md-4 mt-3 gap-2">
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-javascript.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        JavaScript
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-html.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        HTML5
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-css-3.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        CSS3
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-bootstrap-5.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Bootstrap 5
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-react.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        React.js
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/images/logo-angular.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        AngularJS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-csharp.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        C#
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-dot-net-core.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        .NET Core
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-aws.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        AWS
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-firebase.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Firebase
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-nodejs.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Node.js
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-express.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Express.js
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-kotlin.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Kotlin
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-android.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Android
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-postgresql.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        PostgreSQL
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-mongodb.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        MongoDB
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-mongoose.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Mongoose
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-redis.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Redis
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-linux.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Linux
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto"> <!-- Skill box -->
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/logo-git.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        Git
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-auto">
+                                <div class="liftable d-flex flex-column text-center border rounded-3">
+                                    <img src="assets/images/logo-jwt.svg" alt="" style="width: 100px; height: 100px;">
+                                    <div class="d-flex justify-content-center p-sm-2">
+                                        JWT
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_obidsi0t.json" background="transparent"  speed="1" loop autoplay></lottie-player>
+            </div>
+        </div>
+
+        <div class="row m-md-5 m-2"> <!-- Empty -->
+        </div>
+
+        <div class="row flex-column text-center mt-md-4 mt-3 mb-4"> <!-- Contact -->
+            <div class="col-auto">
+                <h2>Would you like to contact?</h2>
+                <small>Let's work together to create something amazing.</small>
+            </div>
+            <div class="col-auto mt-md-4 mt-md-3 mt-sm-2 mt-1">
+                <div class="btn-group" role="group">
+                    <button class="btn btn-secondary" onclick="copyEmailAddress()" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Copy email address">
+                        <img src="assets/logo-envelope.svg" alt="">
+                        Email
+                    </button>   
+                    <button class="btn btn-secondary" onclick="copyPhoneNumber()" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Copy phone number">
+                        <img src="assets/logo-telephone.svg">
+                        Phone
+                    </button>
+                    <button class="btn btn-secondary"  data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Open LinkedIn">
+                        <a href="https://www.linkedin.com/in/ta-ahmad/" target="_blank" id="linkedin-anchor">
+                            <img src="assets/logo-linkedin.svg" alt="">
+                            LinkedIn
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification modal -->
+    <div class="modal fade" id="notify-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="modal-label">Email Copied!</h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
