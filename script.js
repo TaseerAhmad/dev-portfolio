@@ -1,18 +1,18 @@
 const devName = document.getElementById('dev-name');
 const modal = new bootstrap.Modal(document.getElementById('notify-modal'));
 const modalLabel = document.getElementById('modal-label');
-const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
 
 window.onload = async () => {
     const devNameChars = ['T', 'a', 's', 'e', 'e', 'r', ' ', 'A', 'h', 'm', 'a', 'd', ' ', '.'];
     for (let i = 0; i < devNameChars.length; i++) {
        typeWrite(devNameChars, i);
-       await sleep(350)
+       await sleep(350);
     }
 
     playFullStopAnimation();
-}
+};
 
 function sleep(time) {
     return new Promise((resolve) => {
@@ -38,13 +38,13 @@ function playFullStopAnimation() {
 
 function copyEmailAddress() {
     copyToClipboard('taseer.ahmadd@gmail.com');
-    modalLabel.innerHTML = '✔ Email copied!'
+    modalLabel.innerHTML = '✔ Email copied!';
     modal.show();
 }
 
 function copyPhoneNumber() {
     copyToClipboard('+92(0)3034172052');
-    modalLabel.innerHTML = '✔ Phone number copied!'
+    modalLabel.innerHTML = '✔ Phone number copied!';
     modal.show();
 }
 
